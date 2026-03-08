@@ -6,9 +6,9 @@ import {
   ChevronUp, CheckCircle, MapPin, DollarSign 
 } from 'lucide-react';
 
-// --- Assets & Data ---
+// ---const LOGO_URL = "https://ibb.co.com/7NzGWH5R"; Assets & Data ---
 // Replace this URL with the actual Netrokona Bridge image path
-const HERO_IMAGE = "https://images.unsplash.com/photo-1548685913-fe6678babe8d?q=80&w=2000&auto=format&fit=crop"; 
+const HERO_IMAGE = "https://raw.githubusercontent.com/limonsaha5569-star/Tutor-Verse-Netrakona/main/image_9f823a.jpg"; 
 
 const FAQ_DATA = [
   {
@@ -127,7 +127,7 @@ const Hero = ({ setView }) => (
   <div className="relative h-screen flex items-center justify-center overflow-hidden">
     {/* Background Image with Overlay */}
     <div className="absolute inset-0 z-0">
-      <img src={HERO_IMAGE} alt="Netrokona Bridge" className="w-full h-full object-cover" />
+      <img src={https://ibb.co.com/7NzGWH5R} alt="Netrokona Bridge" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-slate-900/70 mix-blend-multiply" />
       <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent" />
     </div>
